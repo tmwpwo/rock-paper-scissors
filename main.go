@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	session, err := discordgo.New(Code)
+	session, err := discordgo.New(handlers.Bot)
 	if err != nil {
 		log.Println(err)
 	}
